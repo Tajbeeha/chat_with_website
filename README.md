@@ -1,6 +1,5 @@
 Project Overview : 
-This project enables users to interact with content extracted from a PDF document. By using advanced natural language processing techniques,
-it allows users to ask questions about the content and receive detailed answers.
+This project enables users to interact with content extracted from url website. By using advanced natural language processing techniques,it allows users to ask questions about the content and receive detailed answers.
 
 Packages Involved :
 Streamlit: A library for building interactive web applications.
@@ -20,7 +19,7 @@ Environment Setup
     Create a .env file in the root directory of your project and add your Google API key as follows:
     GOOGLE_API_KEY=your_google_api_key_here
   
-* PDF Text Extraction
+* URL Content Extraction
 * Embedding Creation
 * Vector Store Creation
 * Question Retrieval
@@ -39,6 +38,6 @@ Run the Streamlit app using:
 * Open the provided URL in your browser to interact with the app.
   
 Example Workflow
-Upload a PDF document.
-Ask questions about the content of the document.
-The system processes the document, retrieves relevant sections, and generates answers.
+Upload a url.
+Ask questions about the content of the website.
+The system processes the website content, retrieves relevant sections, and generates answers.
